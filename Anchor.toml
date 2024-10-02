@@ -1,0 +1,12 @@
+[programs.localnet]
+dice_roller = "target/deploy/dice_roller.so"
+
+[registry]
+url = "https://anchor.projectserum.com"
+
+[provider]
+cluster = "localnet"
+wallet = "~/.config/solana/id.json"
+
+[scripts]
+test = "anchor test"

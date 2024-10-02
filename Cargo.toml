@@ -1,0 +1,7 @@
+[workspace]
+members = [
+    "programs/dice_roller",
+]
+
+[features]
+test-bpf = ["programs/dice_roller/test-bpf"]
